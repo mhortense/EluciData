@@ -15,6 +15,22 @@ button{
 
 }
 
+img{
+    resize: both;
+    width: 50px;
+    height: 50px;
+}
+
+.img_logo{
+    width: 400px;
+    height: 400px;
+}
+
+.img_pic{
+    width: 20px;
+    height: 20px; 
+}
+
 .button_box{
     background-color: rgb(151, 152, 206);
     width: 150px;
@@ -22,6 +38,7 @@ button{
 }
 
 .big_button_box{
+    font-size: 20px;
     background-color: rgb(228, 174, 219);
     width: 300px;
     height: 50px;
@@ -37,4 +54,9 @@ button{
     list-style-type: none;
     border: powderblue solid 2px;
     
+}
+
+.text_proj{
+    font: arial;
+    font-size: 20px;
 }
